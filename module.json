@@ -1,0 +1,85 @@
+{
+  "id": "sf2e-gotgw-ru",
+  "title": "xr0mi-adv: Вина Могильного Мира",
+  "description": "<p>Русский перевод приключения Starfinder Second Edition: Guilt of the Grave World. Модуль хранит только переведенные документы и использует материалы из официального модуля. <br>от xr0mi</p>",
+  "version": "0.2.0-alpha.1",
+  "authors": [
+    {
+      "name": "xr0mi",
+      "url": "https://boosty.to/xr0mi",
+      "discord": "xr0mi",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "packs": [
+    {
+      "name": "sf2e-gotgw-ru",
+      "label": "Вина Могильного мира",
+      "path": "packs/sf2e-gotgw-ru",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Вина Могильного Мира: перевод",
+      "color": "#243b53",
+      "sorting": "m",
+      "packs": [
+        "sf2e-gotgw-ru"
+      ],
+      "folders": []
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "sf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "sf2e-guilt-of-the-grave-world",
+        "type": "module",
+        "manifest": "https://cdn.paizo.com/foundry/modules/sf2e-guilt-of-the-grave-world/module.json",
+        "compatibility": {
+          "minimum": "14.1.0"
+        }
+      },
+      {
+        "id": "pf2e-ru",
+        "type": "module",
+        "manifest": "https://gitlab.com/gnuraco/pf2r/-/releases/permalink/latest/downloads/module.json",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ru-ru",
+        "type": "module",
+        "manifest": "https://github.com/phenomen/foundry-vtt-ru/releases/download/latest/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {
+    "sf2e-gotgw-ru": {
+      "sourceModule": "sf2e-guilt-of-the-grave-world",
+      "translationOnly": true
+    }
+  },
+  "url": "https://boosty.to/xr0mi"
+}
