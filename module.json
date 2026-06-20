@@ -2,7 +2,10 @@
   "id": "sf2e-gotgw-ru",
   "title": "xr0mi-adv: Вина Могильного Мира",
   "description": "<p>Русский перевод приключения Starfinder Second Edition: Guilt of the Grave World. Модуль хранит только переведенные документы и использует материалы из официального модуля. <br>от xr0mi</p>",
-  "version": "0.2.0-alpha.1",
+  "version": "0.2.0-alpha.2",
+  "url": "https://github.com/xr0mii/gotgw-xr0mi",
+  "manifest": "https://raw.githubusercontent.com/xr0mii/gotgw-xr0mi/main/module.json",
+  "download": "https://github.com/xr0mii/gotgw-xr0mi/releases/download/v0.2.0-alpha.2/sf2e-gotgw-ru-0.2.0-alpha.2.zip",
   "authors": [
     {
       "name": "xr0mi",
@@ -81,5 +84,5 @@
       "translationOnly": true
     }
   },
-  "url": "https://boosty.to/xr0mi"
+  "readme": "https://github.com/xr0mii/gotgw-xr0mi/blob/main/README.md"
 }
